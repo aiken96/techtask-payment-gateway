@@ -1,0 +1,11 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+payment:
+  fraud:
+    threshold: 900000
+management:
+  endpoints:
+    web:
+      exposure:
+        include: prometheus,health
